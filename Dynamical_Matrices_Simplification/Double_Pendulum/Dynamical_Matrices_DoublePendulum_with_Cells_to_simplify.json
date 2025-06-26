@@ -1,0 +1,30 @@
+{
+    "COEF_Dyn": "Matrix([[l**2*m*sin(q6)**2 + l**2*m*cos(q6)**2 + m*(l*(-sin(q6)*sin(q9) + cos(q6)*cos(q9)) + l*cos(q6))**2 + m*(-l*(sin(q6)*cos(q9) + sin(q9)*cos(q6)) - l*sin(q6))**2, l*m*(l*(-sin(q6)*sin(q9) + cos(q6)*cos(q9)) + l*cos(q6))*(-sin(q6)*sin(q9) + cos(q6)*cos(q9)) - l*m*(-l*(sin(q6)*cos(q9) + sin(q9)*cos(q6)) - l*sin(q6))*(sin(q6)*cos(q9) + sin(q9)*cos(q6))], [l*m*(l*(-sin(q6)*sin(q9) + cos(q6)*cos(q9)) + l*cos(q6))*(-sin(q6)*sin(q9) + cos(q6)*cos(q9)) - l*m*(-l*(sin(q6)*cos(q9) + sin(q9)*cos(q6)) - l*sin(q6))*(sin(q6)*cos(q9) + sin(q9)*cos(q6)), l**2*m*(-sin(q6)*sin(q9) + cos(q6)*cos(q9))**2 + l**2*m*(sin(q6)*cos(q9) + sin(q9)*cos(q6))**2]])",
+    "RHS_Dyn": "Matrix([[l**2*m*u6**2*sin(q6)*cos(q6) - l*(g*m + l*m*u6**2*cos(q6))*sin(q6) - m*(l*(-sin(q6)*sin(q9) + cos(q6)*cos(q9)) + l*cos(q6))*(-l*u6**2*sin(q6) - l*(u6 + u9)**2*(sin(q6)*cos(q9) + sin(q9)*cos(q6))) + (g*m - m*(-l*u6**2*cos(q6) - l*(u6 + u9)**2*(-sin(q6)*sin(q9) + cos(q6)*cos(q9))))*(-l*(sin(q6)*cos(q9) + sin(q9)*cos(q6)) - l*sin(q6))], [-l*m*(-sin(q6)*sin(q9) + cos(q6)*cos(q9))*(-l*u6**2*sin(q6) - l*(u6 + u9)**2*(sin(q6)*cos(q9) + sin(q9)*cos(q6))) - l*(g*m - m*(-l*u6**2*cos(q6) - l*(u6 + u9)**2*(-sin(q6)*sin(q9) + cos(q6)*cos(q9))))*(sin(q6)*cos(q9) + sin(q9)*cos(q6))]])",
+    "Cells_to_Simplify": {
+        "COEF": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                1
+            ],
+            [
+                1,
+                1
+            ]
+        ],
+        "RHS": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                0
+            ]
+        ]
+    }
+}

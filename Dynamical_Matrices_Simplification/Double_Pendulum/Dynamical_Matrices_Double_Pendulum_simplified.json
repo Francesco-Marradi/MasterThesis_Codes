@@ -1,0 +1,4 @@
+{
+    "COEF_Dyn": "Matrix([[l**2*m*(2*cos(q9) + 3), l**2*m*(cos(q9) + 1)], [l**2*m*(cos(q9) + 1), l**2*m]])", 
+    "RHS_Dyn": "Matrix([[l*m*(-2*g*sin(q6) - g*sin(q6 + q9) + 2*l*u6*u9*sin(q9) + l*u9**2*sin(q9))], [-l*m*(g*sin(q6 + q9) + l*u6**2*sin(q9))]])"
+}

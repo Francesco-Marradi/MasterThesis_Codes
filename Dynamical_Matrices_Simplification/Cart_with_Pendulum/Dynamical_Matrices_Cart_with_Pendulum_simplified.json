@@ -1,0 +1,4 @@
+{
+    "COEF_Dyn": "Matrix([[0.333333333333333*l**2*m1, l*m1*cos(q6)/2], [l*m1*cos(q6)/2, m0 + m1]])", 
+    "RHS_Dyn": "Matrix([[-g*l*m1*sin(q6)/2], [-b*u7 - k*q7]])"
+}
